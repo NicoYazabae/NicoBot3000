@@ -143,179 +143,189 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                 dropNumber = Math.random();
 
-                if (Math.random() < 1/19*1) {
+                if (Math.random() < 1/20*1) {
 
                 tilted += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Tilted Towers" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Tilted_Towers.png"
+                    message: "Tilted Towers" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/TiltedSeason4.png"
                 });
 
                 break;
-                } else if (dropNumber > 1/19*1 && dropNumber < 1/19*2) {
+                } else if (dropNumber > 1/20*1 && dropNumber < 1/20*2) {
                 tomato +=1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Tomato Town" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Tomato_Town.png"
+                    message: "Tomato Town" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/TomatoSeason4.png"
                 });
 
                 break;
                 }
-                else if (dropNumber > 1/19*2 && dropNumber < 1/19*3) {
+                else if (dropNumber > 1/20*2 && dropNumber < 1/20*3) {
                 retail += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Retail Row" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Retail_Row.png"
+                    message: "Retail Row" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/RetailSeason4.png"
                 });
 
                 break;
                 }
 
-                else if (dropNumber > 1/19*3 && dropNumber < 1/19*4) {
+                else if (dropNumber > 1/20*3 && dropNumber < 1/20*4) {
                 lucky += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Lucky Landing" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Lucky_Landing.png"
+                    message: "Lucky Landing" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/LuckySeason4.png"
                 });
 
                 break;
                 }
 
-                else if (dropNumber > 1/19*4 && dropNumber < 1/19*5) {
+                else if (dropNumber > 1/20*4 && dropNumber < 1/20*5) {
                 anarchy += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Anarchy Acres" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Anarchy_Acres.png"
+                    message: "Anarchy Acres" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/AnarchySeason4.png"
                 });
 
                 break;
                 }
 
-                else if (dropNumber > 1/19*5 && dropNumber < 1/19*6) {
+                else if (dropNumber > 1/20*5 && dropNumber < 1/20*6) {
                 dusty += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Dusty Depot" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Dusty_Depot.png"
+                    message: "Dusty Divot" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/DustySeason4.png"
                 });
 
                 break;
                 }
 
-                else if (dropNumber > 1/19*6 && dropNumber < 1/19*7) {
+                else if (dropNumber > 1/20*6 && dropNumber < 1/20*7) {
                 fatal += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Fatal Fields" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Fatal_Fields.png"
+                    message: "Fatal Fields" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/FatalSeason4.png"
                 });
 
                 break;
                 }
 
-                else if (dropNumber > 1/19*7 && dropNumber < 1/19*8) {
+                else if (dropNumber > 1/20*7 && dropNumber < 1/20*8) {
                 flush += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Flush Factory" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Flush_Factory.png"
+                    message: "Flush Factory" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/FlushSeason4.png"
                 });
 
                 break;
                 }
 
-                else if (dropNumber > 1/19*8 && dropNumber < 1/19*9) {
+                else if (dropNumber > 1/20*8 && dropNumber < 1/20*9) {
                 greasy += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Greasy Grove" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Greasy_Grove.png"
+                    message: "Greasy Grove" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/GreasySeason4.png"
                 });
 
                 break;
                 }
 
-                else if (dropNumber > 1/19*9 && dropNumber < 1/19*10) {
+                else if (dropNumber > 1/20*9 && dropNumber < 1/20*10) {
                 haunted += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Haunted Hills" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Haunted_Hills.png"
+                    message: "Haunted Hills" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/HauntedSeason4.png"
                 });
 
                 break;
                 }
 
-                else if (dropNumber > 1/19*10 && dropNumber < 1/19*11) {
+                else if (dropNumber > 1/20*10 && dropNumber < 1/20*11) {
                 junk += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Junk Junction" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Junk_Junction.png"
+                    message: "Junk Junction" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/JunkSeason4.png"
                 });
 
                 break;
                 }
 
-                  else if (dropNumber > 1/19*11 && dropNumber < 1/19*12) {
+                  else if (dropNumber > 1/20*11 && dropNumber < 1/20*12) {
                 lonely += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Lonely Lodge" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Lonely_Lodge.png"
+                    message: "Lonely Lodge" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/LonelySeason4.png"
                 });
 
                 break;
                 }
 
-                  else if (dropNumber > 1/19*12 && dropNumber < 1/19*13) {
+                  else if (dropNumber > 1/20*12 && dropNumber < 1/20*13) {
                 loot += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Loot Lake" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Loot_Lake.png"
+                    message: "Loot Lake" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/LootSeason4.png"
                 });
 
                 break;
                 }
 
-                  else if (dropNumber > 1/19*13 && dropNumber < 1/19*14) {
+                  else if (dropNumber > 1/20*13 && dropNumber < 1/20*14) {
                 moisty += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Moisty Mire" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Moisty_Mire.png"
+                    message: "Moisty Mire" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/MoistySeason4.png"
                 });
 
                 break;
                 }
 
-                  else if (dropNumber > 1/19*14 && dropNumber < 1/19*15) {
+                  else if (dropNumber > 1/20*14 && dropNumber < 1/20*15) {
                 pleasant += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Pleasant Park" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Pleasant_Park.png"
+                    message: "Pleasant Park" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/PleasantSeason4.png"
                 });
 
                 break;
                 }
 
-                  else if (dropNumber > 1/19*15 && dropNumber < 1/19*16) {
+                  else if (dropNumber > 1/20*15 && dropNumber < 1/20*16) {
                 salty += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Salty Springs" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Salty_Springs.png"
+                    message: "Salty Springs" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/SaltySeason4.png"
                 });
 
                 break;
                 }
 
-                  else if (dropNumber > 1/19*16 && dropNumber < 1/19*17) {
+                  else if (dropNumber > 1/20*16 && dropNumber < 1/20*17) {
                 shifty += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Shifty Shafts" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Shifty_Shafts.png"
+                    message: "Shifty Shafts" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/ShiftySeason4.png"
                 });
 
                 break;
                 }
 
-                  else if (dropNumber > 1/19*17 && dropNumber < 1/19*18) {
+                  else if (dropNumber > 1/20*17 && dropNumber < 1/20*18) {
                 snobby += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Snobby Shores" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Snobby_Shores.png"
+                    message: "Snobby Shores" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/SnobbySeason4.png"
+                });
+
+                break;
+                }
+
+                else if (dropNumber > 1/20*18 && dropNumber < 1/20*19) {
+                snobby += 1;
+                bot.sendMessage({
+                    to: channelID,
+                    message: "Risky Reels" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/RiskySeason4.png"
                 });
 
                 break;
@@ -325,7 +335,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 wailing += 1;
                 bot.sendMessage({
                     to: channelID,
-                    message: "Wailing Woods" + "\nhttp://tobiasjzagal.dk/OwO/FortniteDropZones/Wailing_Woods.png " + dropNumber
+                    message: "Wailing Woods" + "\nhttp://tobiasjzagal.dk/OwO/FortniteSeason4/WailingSeason4.png " + dropNumber
                 });
 
                 break;
@@ -419,7 +429,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         }
     }
 });
-
 
 
 
