@@ -5,7 +5,12 @@ var auth = require('./auth.json');
 var dt = require('./myfirstmodule');
 var rockstar = 0;
 
-
+//dice
+var d6number = 0;
+var d5number = 0;
+var d4number = 0;
+var d3number = 0;
+var d2number = 0;
 
 
 
@@ -376,10 +381,259 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
 
 
+                case 'd6':
+
+                d6number = Math.random();
+
+
+                if (d6number < 1/6*1) {
+
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**1** 🎲"
+                });
+
+                break;
+
+
+                } else if (d6number > 1/6*1 && d6number < 1/6*2) {
+                tomato +=1;
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**2** 🎲"
+                });
+
+                break;
+                } else if (d6number > 1/6*2 && d6number < 1/6*3) {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**3** 🎲"
+                });
+
+                break;
+                } else if (d6number > 1/6*3 && d6number < 1/6*4) {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**4** 🎲"
+                });
+
+                break;
+                } else if (d6number > 1/6*4 && d6number < 1/6*5) {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**5** 🎲"
+                });
+
+                break;
+                } else {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**6** 🎲"
+                });
+
+                }
+
+
+                break;
+
+
+
+                case 'd5':
+
+                d5number = Math.random();
+
+
+                if (d5number < 1/5*1) {
+
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**1** 🎲"
+                });
+
+                break;
+
+
+                } else if (d5number > 1/5*1 && d5number < 1/5*2) {
+                tomato +=1;
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**2** 🎲"
+                });
+
+                break;
+                } else if (d5number > 1/5*2 && d5number < 1/5*3) {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**3** 🎲"
+                });
+
+                break;
+                } else if (d5number > 1/5*3 && d5number < 1/5*4) {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**4** 🎲"
+                });
+
+                break;
+                } else {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**5** 🎲"
+                });
+
+                break;
+                }
 
 
 
 
+
+
+
+                case 'd4':
+
+                d4number = Math.random();
+
+
+                if (d4number < 1/4*1) {
+
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**1** 🎲"
+                });
+
+                break;
+
+
+                } else if (d4number > 1/4*1 && d4number < 1/4*2) {
+                tomato +=1;
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**2** 🎲"
+                });
+
+                break;
+                } else if (d4number > 1/4*2 && d4number < 1/4*3) {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**3** 🎲"
+                });
+
+                break;
+                } else  {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**4** 🎲"
+                });
+
+                break;
+                }
+
+
+
+
+
+
+
+                case 'd3':
+
+                d3number = Math.random();
+
+
+                if (d3number < 1/3*1) {
+
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**1** 🎲"
+                });
+
+                break;
+
+
+                } else if (d3number > 1/3*1 && d3number < 1/3*2) {
+                tomato +=1;
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**2** 🎲"
+                });
+
+                break;
+                } else  {
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**3** 🎲"
+                });
+
+                break;
+                }
+
+
+
+                case 'd2':
+
+                d2number = Math.random();
+
+
+                if (d2number < 0.5) {
+
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**1** 🎲"
+                });
+
+                break;
+
+
+                } else if (d3number > 0.5) {
+                tomato +=1;
+                bot.sendMessage({
+                    to: channelID,
+                    message: "**2** 🎲"
+                });
+
+                break;
+                }
+
+                break;
+
+
+                case 'd1':
+
+
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "why tho?"
+                });
+
+                break;
+
+
+                case 'whoIsBestBot':
+
+
+
+                bot.sendMessage({
+                    to: channelID,
+                    message: "<:NicoPointing:447158480374333450>"
+                });
+
+                break;
 
 
 
@@ -558,7 +812,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'fag':
                 bot.sendMessage({
                     to: channelID,
-                    message: 'http://tobiasjzagal.dk/OwO/fag.jpg'
+                    message: 'http://tobiasjzagal.dk/OwO/fag.jpg' + message
                 });
                 break;
                 // Just add any case commands if you want to..
