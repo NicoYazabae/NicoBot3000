@@ -643,7 +643,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
                 bot.sendMessage({
                     to: channelID,
-                    message: 'Hello ' + user + '! I am Nico Yazabot and I can do the following things:' + '\n"!time" to show the time' + '\n"!nico" to nii' + '\n"!addRockstar" to add 1 rockstar can to your count' + '\n"!countRockstar" to see how many rockstar cans has been added to the count' + '\n"!clearRockstar" to reset the rockstar counter' + '\n"!dropRandom" to select a random drop in Fortnite, so far theres only 4 options' + '\n"!dropCount" to see how many times you have dropped in the different places' + '\nAnd !"dropClear" to clear the drop count.' + '\nThe rest is just memes tbh fam'
+                    message: 'Hello ' + user + '! I am Nico Yazabot and I can do the following things:' + '\n"!time" to show the time' + '\n"!nico" to nii' + '\n"!dropRandom" to select a random drop location in Fortnite' + '\n"!dropCount" to see how many times you have dropped in the different locations' + '\nAnd !"dropClear" to clear the drop count.' + '\n"!d6 - d1" for rolling a dice. e.g. "!d4" would give a number between 1 - 4' + '\nThe rest is just memes tbh fam'
                 });
 
                 break;
